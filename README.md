@@ -1,6 +1,6 @@
-# chiru-column
+# chiru-stick-reset
 
-> A vue learning project of Chiru-website
+> A chiru record website(SPA)
 
 ## Build Setup
 

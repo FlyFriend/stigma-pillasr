@@ -1,8 +1,8 @@
 {
-  "name": "chiru-column",
+  "name": "chiru-stick-reset",
   "version": "1.0.0",
-  "description": "A vue learning project of Chiru-website",
-  "author": "lzhbhlrPython & Begonia1005",
+  "description": "A chiru record website(SPA)",
+  "author": "瞎哔哔的py & Begonia1005",
   "private": true,
   "scripts": {
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
@@ -11,6 +11,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "at-ui": "^1.3.3",
+    "at-ui-style": "^1.5.1",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },

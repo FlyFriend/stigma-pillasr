@@ -345,6 +345,22 @@ async@^2.1.2, async@^2.4.1, async@^2.6.2:
   dependencies:
     lodash "^4.17.14"
 
+at-ui-style@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.nlark.com/at-ui-style/download/at-ui-style-1.5.1.tgz#db2057afb3aeb5961d33753cd4ff8bff82e913a0"
+  integrity sha1-2yBXr7OutZYdM3U81P+L/4LpE6A=
+
+at-ui@^1.3.3:
+  version "1.3.3"
+  resolved "https://registry.nlark.com/at-ui/download/at-ui-1.3.3.tgz#20feafa2231fc69268537ed5b3994ca02a072f6d"
+  integrity sha1-IP6voiMfxpJoU37Vs5lMoCoHL20=
+  dependencies:
+    deepmerge "^2.0.1"
+    vue "^2.5.13"
+    vue-i18n "^7.4.1"
+    vue-router "^2.8.1"
+    vue-template-compiler "^2.5.13"
+
 atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.npm.taobao.org/atob/download/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
@@ -1456,9 +1472,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-db@^1.0.30000529, caniuse-db@^1.0.30000634, caniuse-db@^1.0.30000639:
-  version "1.0.30001233"
-  resolved "https://registry.nlark.com/caniuse-db/download/caniuse-db-1.0.30001233.tgz#2255b41da2c37bc88b55e5518f920e501aa7e6ea"
-  integrity sha1-IlW0HaLDe8iLVeVRj5IOUBqn5uo=
+  version "1.0.30001234"
+  resolved "https://registry.nlark.com/caniuse-db/download/caniuse-db-1.0.30001234.tgz#77aa002abc9c10aa9ceffe003cbe240f3a21f72d"
+  integrity sha1-d6oAKrycEKqc7/4APL4kDzoh9y0=
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30000792, caniuse-lite@^1.0.30000805, caniuse-lite@^1.0.30000844, caniuse-lite@^1.0.30001219:
   version "1.0.30001233"
@@ -2244,6 +2260,11 @@ deep-is@~0.1.3:
   resolved "https://registry.npm.taobao.org/deep-is/download/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
   integrity sha1-s2nW+128E+7PUk+RsHD+7cNXzzQ=
 
+deepmerge@^2.0.1:
+  version "2.2.1"
+  resolved "https://registry.npm.taobao.org/deepmerge/download/deepmerge-2.2.1.tgz?cache=0&sync_timestamp=1606805746825&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fdeepmerge%2Fdownload%2Fdeepmerge-2.2.1.tgz#5d3ff22a01c00f645405a2fbc17d0778a1801170"
+  integrity sha1-XT/yKgHAD2RUBaL7wX0HeKGAEXA=
+
 define-properties@^1.1.3:
   version "1.1.3"
   resolved "https://registry.npm.taobao.org/define-properties/download/define-properties-1.1.3.tgz#cf88da6cbee26fe6db7094f61d870cbd84cee9f1"
@@ -2441,9 +2462,9 @@ ejs@^2.5.7:
   integrity sha1-SGYSh1c9zFPjZsehrlLDoSDuybo=
 
 electron-to-chromium@^1.2.7, electron-to-chromium@^1.3.30, electron-to-chromium@^1.3.47, electron-to-chromium@^1.3.723:
-  version "1.3.745"
-  resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.745.tgz#b54c2baa0e01658288d6835d9f19727fd480de63"
-  integrity sha1-tUwrqg4BZYKI1oNdnxlyf9SA3mM=
+  version "1.3.748"
+  resolved "https://registry.nlark.com/electron-to-chromium/download/electron-to-chromium-1.3.748.tgz#16638a8130f407ae5bf2fc168f2173574deb36c5"
+  integrity sha1-FmOKgTD0B65b8vwWjyFzV03rNsU=
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -7380,6 +7401,11 @@ vue-hot-reload-api@^2.2.0:
   resolved "https://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
   integrity sha1-UylVzB6yCKPZkLOp+acFdGV+CPI=
 
+vue-i18n@^7.4.1:
+  version "7.8.1"
+  resolved "https://registry.nlark.com/vue-i18n/download/vue-i18n-7.8.1.tgz?cache=0&sync_timestamp=1622646032590&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-i18n%2Fdownload%2Fvue-i18n-7.8.1.tgz#2ce4b6efde679a1e05ddb5d907bfc1bc218803b2"
+  integrity sha1-LOS2795nmh4F3bXZB7/BvCGIA7I=
+
 vue-loader@^13.3.0:
   version "13.7.3"
   resolved "https://registry.nlark.com/vue-loader/download/vue-loader-13.7.3.tgz?cache=0&sync_timestamp=1620717743226&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-loader%2Fdownload%2Fvue-loader-13.7.3.tgz#e07440f78230a639d00ada4da7b96d0e9d62037f"
@@ -7399,6 +7425,11 @@ vue-loader@^13.3.0:
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.6.0"
 
+vue-router@^2.8.1:
+  version "2.8.1"
+  resolved "https://registry.nlark.com/vue-router/download/vue-router-2.8.1.tgz#9833c9ee57ac83beb0269056fefee71713f20695"
+  integrity sha1-mDPJ7lesg76wJpBW/v7nFxPyBpU=
+
 vue-router@^3.0.1:
   version "3.5.1"
   resolved "https://registry.nlark.com/vue-router/download/vue-router-3.5.1.tgz#edf3cf4907952d1e0583e079237220c5ff6eb6c9"
@@ -7412,7 +7443,7 @@ vue-style-loader@^3.0.0, vue-style-loader@^3.0.1:
     hash-sum "^1.0.2"
     loader-utils "^1.0.2"
 
-vue-template-compiler@^2.5.2:
+vue-template-compiler@^2.5.13, vue-template-compiler@^2.5.2:
   version "2.6.13"
   resolved "https://registry.nlark.com/vue-template-compiler/download/vue-template-compiler-2.6.13.tgz?cache=0&sync_timestamp=1622557736466&other_urls=https%3A%2F%2Fregistry.nlark.com%2Fvue-template-compiler%2Fdownload%2Fvue-template-compiler-2.6.13.tgz#a735b8974e013ce829e7f77e08e4ee5aecbd3005"
   integrity sha1-pzW4l04BPOgp5/d+COTuWuy9MAU=
@@ -7425,7 +7456,7 @@ vue-template-es2015-compiler@^1.6.0:
   resolved "https://registry.npm.taobao.org/vue-template-es2015-compiler/download/vue-template-es2015-compiler-1.9.1.tgz#1ee3bc9a16ecbf5118be334bb15f9c46f82f5825"
   integrity sha1-HuO8mhbsv1EYvjNLsV+cRvgvWCU=
 
-vue@^2.5.2:
+vue@^2.5.13, vue@^2.5.2:
   version "2.6.13"
   resolved "https://registry.nlark.com/vue/download/vue-2.6.13.tgz#94b2c1b31fddf1dfcc34f28ec848ba8f01ea4c5b"
   integrity sha1-lLLBsx/d8d/MNPKOyEi6jwHqTFs=
