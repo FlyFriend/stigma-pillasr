@@ -52,4 +52,9 @@ export default {
   font-size: 24px;
   color: #2c405a;
 }
+.img {
+  width: 200px;
+  height: auto;
+}
+
 </style>

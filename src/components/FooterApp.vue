@@ -20,9 +20,4 @@ export default {
 at-timeline {
   margin-top: 30px;
 }
-
-.img {
-  width: 200px;
-  height: auto;
-}
 </style>
