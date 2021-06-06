@@ -10,11 +10,10 @@
 </template>
 
 <script>
-import Footer from './Footer.vue';
 import FooterApp from './FooterApp.vue';
 import Timeline from './Timeline.vue';
 export default {
-  components: { Timeline, Footer, FooterApp },
+  components: { Timeline, FooterApp },
   name: "AppMain",
   data() {
   },
