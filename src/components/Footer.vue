@@ -1,19 +1,18 @@
 <template>
-<div>
+  <div>
     <p>Licensed on SATA-license</p>
     <p>
-        Copyright &copy <a href="https://pyliubaolin.top">瞎哔哔的py</a> &
-        <a href="https://begonia.flyfriend.cn">Begonia1005</a>
+      Copyright &copy; <a href="https://pyliubaolin.top">瞎哔哔的py</a> &
+      <a href="https://begonia.flyfriend.cn">Begonia1005</a>
     </p>
     <p>Made by <a href="https://flyfriend.cn">Flyfriend</a></p>
-    </div>
+  </div>
 </template>
 
 <script>
 export default {
   name: "Footer",
-  data() {
-  },
+  data() {},
 };
 </script>
 

@@ -8,7 +8,7 @@
     <h3>By: {{ info.author }}</h3>
     <at-timeline>
       <br />
-      <span v-for="chiru in chirus">
+      <span v-for="(chiru,index) in chirus" :key="index">
         <at-timeline-item :color="chiru.color">
           <i slot="dot" :class="'icon' + ' ' + chiru.icon"></i>
           <at-card style="width: 300px; text-align: center">
