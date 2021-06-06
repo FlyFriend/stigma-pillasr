@@ -56,5 +56,7 @@ export default {
   width: 200px;
   height: auto;
 }
-
+at-timeline {
+  margin-top: 30px;
+}
 </style>
