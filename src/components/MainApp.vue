@@ -4,16 +4,17 @@
     <timeline/>
     </lt-main>
     <lt-footer>
-    <footer/>
+    <footer-app/>
     </lt-footer>
   </lt-layout>
 </template>
 
 <script>
 import Footer from './Footer.vue';
+import FooterApp from './FooterApp.vue';
 import Timeline from './Timeline.vue';
 export default {
-  components: { Timeline, Footer },
+  components: { Timeline, Footer, FooterApp },
   name: "AppMain",
   data() {
   },
